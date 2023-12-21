@@ -9,7 +9,7 @@ import streamlit as st
 openai.api_type = "azure"
 endpoint = "https://launchpad-assistant-api.launchpad.tech.gov.sg/services/openai/"
 api_version = "2023-07-01-preview"
-# api_key = os.getenv("OPENAI_API_KEY")
+# api_key = os.getenv("OPENAI_AI_KEY")
 api_key = st.secrets["OPEN_AI_KEY"]
 
 client = openai.AzureOpenAI(
