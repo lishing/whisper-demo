@@ -6,7 +6,7 @@ import openai
 import code as cd
 
 st.title("Audio Transcription Feature")
-st.caption("For MSF Social Companion with Whisper Base Model. Summarized by gpt-4-turbo")
+st.caption("For MSF Social Report Companion with Whisper Base Model. Summarized by gpt-4-turbo")
 
 # import model (base, 74m parameters)
 model = whisper.load_model("base")
